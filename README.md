@@ -1,4 +1,6 @@
 # Air-Out-Probabilities
-A Python-based project analyzing player defensive performance in baseball. Includes data preprocessing, predictive modeling with logistic regression and random forests, and defensive metrics calculations. Outputs player-specific insights like air-out rates, positional plays, and performance summaries for informed decision-making.
+This project develops machine learning models to predict air-out probabilities for batted balls in Minor League Baseball using 2023 season data. The dataset includes play metadata, Trackman metrics, and player defensive data. The project involves:
 
-The kind of input data I had access to can be seen in data-dictionary.
+1. Data Preprocessing: Handling missing values, feature selection, and encoding categorical variables.
+2. Modeling: Comparing Logistic Regression and Random Forest models for prediction accuracy. The Random Forest model achieved superior performance with a validation log loss of 0.283.
+3. Insights and Applications: Results inform player development and coaching strategies by providing actionable metrics on defensive performance.
